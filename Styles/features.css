@@ -1,0 +1,173 @@
+/* Shared */
+
+.common_title {
+    font-weight: normal;
+    text-align: center;
+    font-family: "catull";
+    }
+
+
+
+/* App Columns */
+
+.app_column {
+    width: 12.5em;
+    margin-top: 3em;
+    text-align: center;
+    }
+
+#app_column_left { 
+    margin-left: 3em;
+    float: left;
+    }
+
+#app_column_right { 
+    margin-right: 3em;
+    float: right;
+    }
+
+.app_column_title { 
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+    font-size: 2.5em;
+    }
+
+.app_icon { 
+    height: 4em;
+    width: 4em;
+    }
+
+
+
+/* Google Logo */
+
+a.google:hover span.blue {
+    color: #0266C8;
+    text-decoration: none;
+    }
+    
+a.google:hover span.red {
+    color: #F90101;
+    text-decoration: none;
+    }
+
+a.google:hover span.yellow {
+    color: #F2B50F;
+    text-decoration: none;
+    }
+    
+a.google:hover span.green {
+    color: #00933B;
+    text-decoration: none;
+    }
+
+
+
+/* Weather */
+
+.weather_main {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 8.5em;
+    left: 0;
+    right: 0;
+    width: 20em;
+    text-align: center;
+    }
+    
+.weather_left {
+    width: 10em;
+    float: left;
+    }
+    
+.weather_right {
+    width: 10em;
+    float: right;
+    }
+
+.weather_title {
+    font-size: 1.5em;
+    }
+
+.weather_data {
+    font-weight: bolder;
+    }
+    
+
+
+/* RSS Columns */
+    
+.rss {
+    margin: auto;
+    width: 20em;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 1em;
+    }
+
+#rss_science {
+    margin-left: 0.125em;
+    left: 0;
+    float: left;
+    }
+
+#rss_news {
+    margin-right: 0.125em;
+    right: 0;
+    float: right;
+    }
+
+.rss_title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    }
+   
+.rss_story {
+    margin-bottom: 0.125em;
+    }
+
+
+
+/* IP Address */
+
+#ip_add {
+    position: absolute;
+    bottom: 0;
+    width: 10em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+
+
+/* Search Boxes */
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 60em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+.searches { 
+    margin-top: 6em;
+    }
+
+input {
+    border: none;
+    width: 10%;
+    padding: 1.25%;
+    color: rgb(0, 0, 0);
+    background: rgba(255,255,255,5);
+    outline: none;
+    }
+

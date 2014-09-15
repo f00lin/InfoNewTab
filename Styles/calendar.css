@@ -1,0 +1,95 @@
+.calendarTable {
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+
+.calendarTable td {
+    text-align: center;
+    height: 2.5em;
+    width: 2.5em;
+    }
+
+
+.calendarTable td.monthHead {
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+    }
+    
+    
+.calendarTable td.weekDay {
+    font-weight: bolder;
+    }
+    
+    
+    
+.calendarTable td.monthDay {
+    border: none;
+    font-weight: bold;
+    }
+    
+    
+    
+.calendarTable td.currentDay {
+    font-weight: bolder;
+    border: none;
+    color: red;
+    }
+
+
+div.head {
+    text-align: center;
+    width: 30em;
+    text-align: center;
+    margin-top: 1.5em;
+    }
+
+
+.btn { 
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-decoration: none;
+    background: transparent;
+    border-style: none;
+    outline: none;
+    color: white;
+    }
+
+
+.but1 {
+    width: 2.5em;
+    height: 2.5em;
+    text-align: left;
+    margin-left: 10%;
+    float: left;
+    }
+
+.but2 {
+    width: 2.5em;
+    height: 2.5em;
+    text-align: right;
+    margin-right: 10%;
+    float: right;
+    }
+
+.tit {
+    float: left;
+    width: 11em;
+    height: 2.5em;
+    font-size: 1.5em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    }
+
+#leftButton:hover {
+    color: red;
+    }
+
+#rightButton:hover {
+    color: red;
+    }

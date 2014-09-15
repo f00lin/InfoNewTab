@@ -1,0 +1,18 @@
+{
+  "name": "Info New Tab",
+  "manifest_version": 2,
+  "version": "0.9",
+  "permissions": [
+            "management",
+            "http://api.openweathermap.org/*",
+            "http://jsonip.appspot.com/*",
+            "http://feeds.bbci.co.uk/*"
+            ],
+  
+  "content_security_policy": "script-src 'self'; object-src 'self'; style-src 'self'; font-src 'self'",
+    
+
+  "chrome_url_overrides" : {
+    "newtab": "info.html"
+  }
+}

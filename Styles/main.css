@@ -1,0 +1,189 @@
+html { 
+    font-size: 100%; 
+    background: url(../Assets/world3.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    }
+
+body {
+    font-family: "MyriadPro-Regular", sans-serif;
+    }
+
+
+
+/* Font Declarations */
+
+@font-face
+{
+font-family: MyriadPro-Regular;
+font-style: normal;
+src: url('../Fonts/MYRIADPRO-REGULAR.OTF')
+}
+
+@font-face
+{
+font-family: "MyriadPro-Cond";
+font-style: normal;
+src: url('../Fonts/MYRIADPRO-COND.OTF')
+}
+
+@font-face
+{
+font-family: "catull";
+font-style: normal;
+src: url('../Fonts/catull.ttf')
+}
+
+
+
+
+
+
+
+
+
+
+/* Links at the top of the screen */
+
+header {
+    top: 0;
+    width: 75em;
+    margin: auto;
+    text-align: center;
+    }
+    
+.chromelinks {
+    font-size: 1em;
+    font-family: "catull";
+    margin-left: 1em;
+    margin-right: 1em;
+    }
+
+
+a.account:hover span.bluebar {
+    border-bottom: 3px solid;
+    border-bottom-color: #0266C8;
+    }
+
+a.account:hover span.redbar {
+    border-bottom: 3px solid;
+    border-bottom-color: #F90101;
+    }
+
+a.account:hover span.yellowbar {
+    border-bottom: 3px solid;
+    border-bottom-color: #F2B50F;
+    }
+
+a.account:hover span.greenbar {
+    border-bottom: 3px solid;
+    border-bottom-color: #00933B;
+    }
+
+
+
+
+/* Current location and time */
+
+#clock { 
+    text-align: center;
+    width: 25em;
+    margin: auto;
+    margin-top: 7em;
+    margin-bottom: 2em;
+    }
+
+.location { 
+    font-size: 3.5em;
+    font-weight: normal;
+    margin-bottom: 0.25em;
+    }
+
+
+.time { 
+    text-align: center;
+    margin: auto;  
+    font-weight: bold;
+    font-size: 5em;
+    font-family: MyriadPro-Cond, sans-serif;
+    }
+
+
+
+
+/* Container that holds calendar 
+ * month-switching buttons and timezone data */
+
+#container {
+    width: 60em;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    }
+
+#primary {
+    float: left;
+    width: 15em;
+    }
+
+#content {
+    float: left;
+    width: 30em;
+    }
+
+#secondary {
+    float: left;
+    width: 15em;
+    }
+    
+
+
+/* Timezones */
+
+.tzname { 
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    }
+
+
+.tzclock { 
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: auto;
+    font-family: MyriadPro-Cond, sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Link styling */
+
+a:link { color: white; text-decoration: none;}
+a:visited { color: white; text-decoration: none;}
+a:active { color: white; text-decoration: none;}
+
+a.blue:hover { color: #0266C8; text-decoration: none;}
+a.red:hover { color: #F90101; text-decoration: none;}
+a.yellow:hover { color: #F2B50F; text-decoration: none;}
+a.green:hover { color: #00933B; text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+

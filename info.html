@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Info New Tab</title>
+        <link href='../Styles/main.css' rel="stylesheet">
+        <link href="../Styles/calendar.css" rel="stylesheet">
+        <link href="../Styles/resize.css" rel="stylesheet" >
+        <link href="../Styles/features.css" rel="stylesheet" >
+    </head>
+    <body>
+        <header>
+            <a href="#" id="appslink" class="account blue chromelinks"><span class="bluebar">Apps</span></a>
+            <a href="#" id="extensionslink" class="account red chromelinks"><span class="redbar">Extensions</span></a>
+            <a href="#" id="settingslink" class="account yellow chromelinks"><span class="yellowbar">Settings</span></a>
+            <a href="#" id="historylink" class="account blue chromelinks"><span class="bluebar">History</span></a>
+            <a href="#" id="bookmarkslink" class="account green chromelinks"><span class="greenbar">Bookmarks</span></a>
+            <a href="#" id="downloadslink" class="account red chromelinks"><span class="redbar">Downloads</span></a>
+            <a href="https://www.google.com/settings/account" class="account blue chromelinks"><span class="bluebar">Account</span></a>
+        </header>
+        
+        <div class="app_column" id="app_column_left">
+            <!--<a class="common_title app_column_title google" href="https://www.google.co.uk/"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></a>-->
+        </div>
+        
+        <div class="app_column" id="app_column_right">
+            <!--<a class="common_title app_column_title blue" href="https://www.google.com/search?btnI=I'm+Feeling+Lucky&q=music">Music</a>-->
+        </div>
+        
+        <div id="clock">
+            <p class="location">Edinburgh</p>
+            <p class="time"><span id="time"></span></p>
+        </div>
+        
+        
+        <div id="container">
+            <div id="primary">
+                <p class="tzname">New York</p>
+                <p id="tzNewYork" class="tzclock"></p>
+            </div>
+    
+            <div id="content">
+                <div class="head">
+                    <button id="leftButton" class="btn but1"><</button>
+                    <p id="calHead" class="tit"></p>
+                    <button id="rightButton" class="btn but2">></button>
+                </div>
+                <div id="cal" class="shift_up"></div>
+            </div>
+    
+            <div id="secondary">
+                <p class="tzname">Sydney</p>
+                <p id="tzSydney" class="tzclock"></p>
+            </div>
+        </div>
+        
+        <div class="weather_main">
+            <div class="weather_left">
+                <p id="coords"></p>
+                <p id="sunrise"></p>
+                <p id="sunset"></p>
+            </div>
+            <div class="weather_right">
+                <p id="conditions"></p>
+                <p id="currenttemp"></p>
+                <p id="windspeed"></p>
+            </div>
+        </div>
+        
+        <footer id="footer">
+            <input id="wikipedia" placeholder="wikipedia" />
+            <input id="digg" placeholder="digg" />
+            <input id="reddit" placeholder="reddit" />
+        </footer>
+        
+        <div class="rss" id="rss_science">
+            <p class="common_title rss_title"><a href="http://www.bbc.co.uk/science/0/" class="green">Science</a></p>
+        </div>
+        
+        <div class="rss" id="rss_news">
+            <p class="common_title rss_title"><a href="http://www.bbc.co.uk/news" class="red">News</a></p>
+        </div>
+        
+        <div id="ip_add">
+            <a href="http://www.ip-lookup.net/" class="yellow" id="ip_address"></a>
+        </div>
+        
+        <!-- Library scripts -->
+        <script src="../Scripts/Library/Moment/moment.js"></script>
+        <script src="../Scripts/Library/Moment/moment-timezone.js"></script>
+        <script src="../Scripts/Library/Moment/moment-timezone-data.js"></script>
+        <script src="../Scripts/Library/JQuery/jquery.min.js"></script>
+        
+        <!-- Custom scripts -->
+        <script src="../Scripts/Custom/date.js"></script>
+        <script src="../Scripts/Custom/calendar.js"></script>
+        <script src="../Scripts/Custom/chrome_links.js"></script>
+        <script src="../Scripts/Custom/timeZones.js"></script>
+        <script src="../Scripts/Custom/app_columns.js"></script>
+        <script src="../Scripts/Custom/searchbinds.js"></script>
+        <script src="../Scripts/Custom/ip.js"></script>
+        <script src="../Scripts/Custom/weather.js"></script>
+        <script src="../Scripts/Custom/rss.js"></script>
+    </body>
+</html>
+
